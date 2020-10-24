@@ -62,8 +62,8 @@ public class UserBuyGoodsList extends Configured implements Tool {
 
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-            k2.set(key.toString().split("[ ]")[0]);
-            v2.set(key.toString().split("[ ]")[1]);
+            k2.set(value.toString().split("[\t]")[0]);
+            v2.set(value.toString().split("[\t]")[1]);
 
             context.write(k2,v2);
         }
