@@ -8,5 +8,35 @@
     <artifactId>product_recommend</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <hadoop.version>2.10.0</hadoop.version>
+    </properties>
 
+    <!-- 配置这个项目的依赖，一个dependency对应一个jar包 -->
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-yarn-common</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-yarn-client</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>
