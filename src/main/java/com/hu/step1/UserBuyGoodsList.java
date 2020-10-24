@@ -1,6 +1,5 @@
 package com.hu.step1;
 
-import com.google.inject.internal.util.$ImmutableMap;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
