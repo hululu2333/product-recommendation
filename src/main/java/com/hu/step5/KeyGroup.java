@@ -1,4 +1,4 @@
-package stepe;
+package com.hu.step5;
 
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;

@@ -1,4 +1,4 @@
-package stepg;
+package com.hu.step7;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;

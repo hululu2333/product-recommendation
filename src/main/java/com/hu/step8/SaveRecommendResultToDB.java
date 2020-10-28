@@ -1,4 +1,4 @@
-package steph;
+package com.hu.step8;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
